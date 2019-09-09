@@ -23,7 +23,6 @@ h6 {
   background-color: #000000;
 }
 
-
 #name path:nth-child(1){
   stroke-dasharray: 100%;
   stroke-dashoffset: 100%;
@@ -57,19 +56,24 @@ h6 {
 #name path:nth-child(7) {
   stroke-dasharray: 100%;
   stroke-dashoffset: 100%;
-  animation: anim 2s forwards 1.5s;
+  animation: anim 2s forwards 1.25s;
 }
 #name path:nth-child(8) {
   stroke-dasharray: 100%;
   stroke-dashoffset: 100%;
-  animation: anim 2s forwards 1.75s;
+  animation: anim 2s forwards 1.5s;
 }
 #name path:nth-child(9) {
   stroke-dasharray: 100%;
   stroke-dashoffset: 100%;
-  animation: anim 2s forwards 2s;
+  animation: anim 2s forwards 1.75s;
 }
 #name path:nth-child(10) {
+  stroke-dasharray: 100%;
+  stroke-dashoffset: 100%;
+  animation: anim 2s forwards 2s;
+}
+#name path:nth-child(11) {
   stroke-dasharray: 100%;
   stroke-dashoffset: 100%;
   animation: anim 2s forwards 2.25s;

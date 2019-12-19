@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Lobster');
 
+
+
 body {
   background-color: #f5f5f5;
   color: #4e4e4e;
@@ -85,6 +87,11 @@ h6 {
   }
 }
 
+.js-loading *,
+.js-loading *:before,
+.js-loading *:after {
+  animation-play-state: paused !important;
+}
 
 a {
   color: #1e1e1e;
